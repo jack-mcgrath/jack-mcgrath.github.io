@@ -17,15 +17,18 @@ div.space.dead{
 	background-color: transparent;
 }
 #board {
-	background-image: url("trump.png");
-	background-size: 700px 400px;
+	background-image: url("candidates.jpeg");
+	background-size: 1100px 619px;
     border: thin solid purple;
-    width:700px;
-    height: 400px;
+    width:1050px;
+    height: 700px;
     margin-right: 0 auto;
 }
 .outer {
   position: relative;
+}
+#go_button{
+  text-align: center;
 }
 .inner {
   margin: auto;  
@@ -34,4 +37,7 @@ div.space.dead{
   right: 0;
   top: 0;
   bottom: 0;
+}
+.center{
+  text-align: center;
 } 

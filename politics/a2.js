@@ -18,7 +18,7 @@ $(document).ready(function () {
     }
     var height = parseInt($("#height").val());
     if(!$('#height').val()){
-      height=50;
+      height=40;
     }
 
     if (isNaN(height) || height < 20 || height > 200) {
@@ -27,7 +27,7 @@ $(document).ready(function () {
      }
     speed = parseInt($("#speed").val());
     if(!$('#speed').val()){
-      speed=100;
+      speed=200;
     }
 
     if (isNaN(speed) || speed < 0 || speed> 1000) {
@@ -132,7 +132,7 @@ var GameOfLife = function(board_div, width, height, speed, radius, under, over, 
     this.killed = false;
     this.spaces = new Array(height);
 
-    $("#status_display").text("speed: " + this.speed.toString()+" ms");
+   
 
     board_div.css({position: "relative",
            width: this.width * Space.WIDTH,
@@ -707,7 +707,7 @@ var Space = function (board, x, y) {
     this.space_div.addClass("unused");
     this.space_div.mouseover(function (e){
       e.preventDefault();
-      space.leftClick();
+      space.shiftLeftClick();
     });
     var space = this;
 
@@ -731,8 +731,8 @@ var Space = function (board, x, y) {
     });
 
 };
-Space.WIDTH = 8;
-Space.HEIGHT = 8;
+Space.WIDTH = 12;
+Space.HEIGHT = 12;
 Space.prototype.leftClick = function(){
    if(!this.space_div.alive){
      this.comeAlive();
