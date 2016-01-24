@@ -27,7 +27,7 @@ $(document).ready(function () {
      }
     speed = parseInt($("#speed").val());
     if(!$('#speed').val()){
-      speed=200;
+      speed=1;
     }
 
     if (isNaN(speed) || speed < 0 || speed> 1000) {
