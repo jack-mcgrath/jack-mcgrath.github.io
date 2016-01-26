@@ -1,7 +1,7 @@
 $(document).ready(function () {
       var current_game = null;
       var timer=null;
-      var speed=20;
+      var speed=500;
   $(document).ready(function (e) {
    // e.preventDefault();
     if(current_game!=null){
@@ -27,7 +27,7 @@ $(document).ready(function () {
      }
     speed = parseInt($("#speed").val());
     if(!$('#speed').val()){
-      speed=1;
+      speed=150;
     }
 
     if (isNaN(speed) || speed < 0 || speed> 1000) {
