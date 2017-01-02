@@ -9,11 +9,24 @@ a {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
-
-body{
+body{margin-top: 10%;
+	margin-left: 10%;
+}
+html{
 	margin-top: 10%;
 	margin-left: 10%;
-	background-color: #ffccfa;
+	background-color: #315481;
+    background-image: linear-gradient(to bottom, #315481, #ffccfa 70%);
+      background-attachment: fixed;
+ 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+  padding: 0;
+  margin: 0;
 }
 .contact{
 	margin-top: 20%;
