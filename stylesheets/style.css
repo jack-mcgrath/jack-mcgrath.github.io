@@ -16,7 +16,7 @@ html{
 	margin-top: 10%;
 	margin-left: 10%;
 	background-color: #315481;
-    background-image: linear-gradient(to bottom, #315481, #ffccfa 70%);
+    background-image: linear-gradient(to bottom, #ffccfa,#315481 190%);
       background-attachment: fixed;
  
   position: absolute;
