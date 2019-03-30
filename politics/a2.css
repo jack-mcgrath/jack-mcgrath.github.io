@@ -1,0 +1,43 @@
+
+input[type="text"] {
+    width: 3em;
+}
+
+
+div.space.unused:hover {
+    background-color: gray;
+}
+div.space.unused {
+    background-color: white;
+}
+div.space.alive {
+    background-color: green;
+}
+div.space.dead{
+	background-color: transparent;
+}
+#board {
+	background-image: url("candidates.jpeg");
+	background-size: 1100px 619px;
+    border: thin solid purple;
+    width:1050px;
+    height: 700px;
+    margin-right: 0 auto;
+}
+.outer {
+  position: relative;
+}
+#go_button{
+  text-align: center;
+}
+.inner {
+  margin: auto;  
+  position: absolute;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.center{
+  text-align: center;
+} 

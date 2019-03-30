@@ -1,0 +1,49 @@
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+}
+#circle1{
+    width: 100px;
+    height: 100px;
+    background: #487942;
+}
+}
+#circle2{
+    width: 100px;
+    height: 100px;
+    background: #FBFFC0;
+}
+}
+#circle3{
+    width: 100px;
+    height: 100px;
+    background: #458FEE;
+}
+}
+#circle4{
+    width: 100px;
+    height: 100px;
+    background: #FF7D01;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 10px 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+a {
+	margin: 10px 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 00;
+}
+
+body{
+	margin-top: 10%;
+	margin-left: 10%;
+	background-color: #ffccfa;
+}
+.contact{
+	margin-top: 20%;
+}
